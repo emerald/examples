@@ -1,3 +1,14 @@
+% Author: unknown
+% # of nodes needed to run: 1
+% Sample output: accept.stdout
+%
+% This example illustrates the following:
+%
+% 1. The `accept` construct inside an Emerald object `process` can be
+%    used to enforce an order in which method calls on an object are
+%    accepted. Non-matching method calls are post-poned until they
+%    match a corresponding `accept` construct.
+
 const foo <- object foo
   var j, k : Integer <- 5
   export operation baa [ i : Integer ]
