@@ -20,7 +20,6 @@ const foo <- object foo
     self.baa[3]
   end baa
 
-
   process
     accept typeobject lamb op baa[Character, String] end lamb
     accept typeobject lamb op baa[Integer] end lamb
@@ -51,4 +50,3 @@ const p2 <- object p1
     foo.baa['x', "abc"]
   end process
 end p1
-
