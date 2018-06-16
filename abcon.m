@@ -1,3 +1,23 @@
+% Author: unknown
+% # of nodes needed to run: 1
+% Sample output: abcon.stdout
+%
+% This example illustrates the following:
+%
+% 1. The various put* methods under stdout.
+%
+% 2. stdout.putint takes an additional width parameter, and pads with
+%    spaces to align the integer to the right.
+%
+% 3. Emerald strings and ints both have an asString method. This is
+%    shown by (at the same time) exhibiting type conformity in
+%    Emerald: A type For sample output, see abcon.stdout `printable`
+%    is defined, having an `asString` method. Strings and ints are
+%    then passed in places where a `printable` is expected.
+%
+% 4. You can request a string representation of any Emerald object,
+%    using the `nameof` construct.
+
 const abcon <- object abcon
   const printable <- typeobject printable
     function asString -> [String]
