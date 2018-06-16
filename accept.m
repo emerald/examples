@@ -18,7 +18,7 @@ const foo <- object foo
   export operation baa [ c : Character, s : String ]
     stdout.putstring["baa[2] - " || c.asString || " - " || s || "\n"]
     self.baa[3]
-  end baa 
+  end baa
 
 
   process
