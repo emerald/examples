@@ -2,6 +2,12 @@
 
 Explore and have fun!
 
+These examples are
+[originally](https://github.com/emerald/examples/commit/9a5eaa5022988afd7247b653eca73209a1b42dad)
+from the [`ubc-latest/Example` directory, under the `src-versions`
+repository, commit
+`4faee4f29dac9fea92ac10bbeb0b9281f83fdf3a`](https://github.com/emerald/src-versions/tree/4faee4f29dac9fea92ac10bbeb0b9281f83fdf3a/ubc-latest-src).
+
 # Docker Infrastructure
 
 The provided `Makefile` defines some targets which allows you to start
